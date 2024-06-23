@@ -4,6 +4,7 @@ module.exports = {
     basvuruKanal: "",
     basvuruLog: "",
     yetkiliRol: [],
+    başvuruYetkilisi: [],
     sorular: ["İsminiz nedir?", "Yaşınız nedir?", "Neden yetkili olmak istiyorsunuz?", "Daha önce başka bir sunucuda yetkili oldunuz mu?", "Discordu ne kadar süredi kullanıyorsun?"],
 
     botCustom: {
