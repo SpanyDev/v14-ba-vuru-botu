@@ -10,6 +10,10 @@ module.exports = {
         if (!interaction.isButton()) return;
         if (!interaction.customId.startsWith("onayla_") && !interaction.customId.startsWith("reddet_")) return;
 
+        if (!config.başvuruYetkilisi.includes(interaction.user.id)) {
+            return interaction.followUp({ content: `Bu işlemi yapmaya yetkiniz yok.`, ephemeral: true });
+        }
+
         try {
 
             if (interaction.customId.startsWith("onayla_")) {
