@@ -13,7 +13,7 @@
     "consola": "^3.2.3",
     "discord.js": "^14.15.2",
     "moment": "^2.30.1",
-	"mongo-axium": "^1.0.4",
-	"mongoose": "^8.4.3",
+    "mongo-axium": "^1.0.4",
+    "mongoose": "^8.4.3"
   }
 }
